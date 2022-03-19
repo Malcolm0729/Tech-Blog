@@ -1,0 +1,8 @@
+<div>
+    <h1 class="bg-dark p-5 text-center text-white">Tech Blog</h1>
+</div>
+
+{{#each posts as |post|}}
+<div class="d-grid gap-2 p-2">
+    <a href="/posts/{{post.id}}" class='btn btn-danger text-start p-4'>{{post.title}}</a>
+</div>
