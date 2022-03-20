@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+    position: relative;
+    min-height: 90vh;
+}
+
+.card-body {
+    background-color: darkgray;
+    color: black;
+    border: none;
+}
+
+.card-header {
+    background-color: darkgray;
+    color: black;
+    border: none;
+}
+
+.card {
+    border: none;
+}
+
+.bg-dark-dark {
+    background-color: black;
+}
+
+.bg-light-dark {
+    background-color: black;
+}
